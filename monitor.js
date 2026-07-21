@@ -26,6 +26,8 @@ const STATE_FILE = path.join(__dirname, "state.json");
 const WATCHLIST_FILE = path.join(__dirname, "watchlist.json");
 
 const DELAY_MS = 1000; // pacing between requests, keeps Cloudflare happy
+const SEAT_DELAY_MS = 2000; // slower pacing for full-page seat map fetches
+const SEAT_BATCH = 8; // seat maps checked per run, rotating through the watchlist
 const ERROR_ALERT_COOLDOWN_MS = 6 * 60 * 60 * 1000; // 6 hours
 const REOPEN_ALERT_COOLDOWN_MS = 3 * 60 * 60 * 1000; // 3 hours
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "";
@@ -84,8 +86,12 @@ async function fetchText(url, accept, attempts = 3) {
   throw lastErr;
 }
 
-const fetchPage = (url) =>
-  fetchText(url, "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
+const fetchPage = (url, attempts) =>
+  fetchText(
+    url,
+    "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    attempts
+  );
 const fetchPartial = (url) => fetchText(url, "text/html, */*; q=0.01");
 
 // ---------------------------------------------------------------------------
@@ -449,19 +455,34 @@ async function main() {
   }
 
   // 5. Seat watching for watchlisted showtimeIds (explicit ids plus rules).
+  // Cloudflare tolerates only about a dozen full TicketSeatMap page loads
+  // per IP, and each Actions run gets a fresh IP, so we check a rotating
+  // batch per run instead of the whole watchlist. Once flagged, an IP stays
+  // flagged, so two consecutive 403s abort the sweep for this run.
   const watchlist = resolveWatchlist(state);
-  console.log(`Watchlist resolved to ${watchlist.length} show(s)`);
-  for (const id of watchlist) {
+  const cursor = Number.isInteger(state.seatCursor) ? state.seatCursor : 0;
+  const batch = [];
+  for (let i = 0; i < Math.min(SEAT_BATCH, watchlist.length); i++) {
+    batch.push(watchlist[(cursor + i) % watchlist.length]);
+  }
+  console.log(
+    `Watchlist resolved to ${watchlist.length} show(s), checking ${batch.length} this run (cursor ${cursor})`
+  );
+  let seatOk = 0;
+  let seat403Streak = 0;
+  for (const id of batch) {
     const show = state.showtimes[id];
     if (!show) {
       console.warn(`Watchlist id ${id} not found in state, skipping`);
       continue;
     }
-    await sleep(DELAY_MS);
+    await sleep(SEAT_DELAY_MS + Math.floor(Math.random() * 1000));
     try {
-      const html = await fetchPage(show.ticketUrl);
+      const html = await fetchPage(show.ticketUrl, 1);
       const seats = parseSeatMap(html);
       if (!seats.length) throw new Error("seat map parsed empty");
+      seatOk++;
+      seat403Streak = 0;
       const center = centerAvailable(seats);
       const prev = state.seats[id];
       if (prev && center.length > prev.count) {
@@ -478,7 +499,22 @@ async function main() {
       state.seats[id] = { count: center.length, seats: center, updatedAt: now };
       console.log(`Watch ${id} (${show.date} ${show.time}): ${center.length} center seats`);
     } catch (err) {
-      fetchErrors.push(`seatmap ${id}: ${err}`);
+      if (/HTTP 403/.test(String(err))) {
+        seat403Streak++;
+        console.warn(`Seat map 403 for ${id} (streak ${seat403Streak})`);
+        if (seat403Streak >= 2) {
+          console.warn("IP flagged for seat pages, aborting sweep until next run");
+          break;
+        }
+      } else {
+        fetchErrors.push(`seatmap ${id}: ${err}`);
+      }
+    }
+  }
+  if (watchlist.length) {
+    state.seatCursor = (cursor + Math.max(seatOk, 1)) % watchlist.length;
+    if (batch.length && seatOk === 0) {
+      fetchErrors.push(`seat sweep: 0 of ${batch.length} seat maps fetched`);
     }
   }
 

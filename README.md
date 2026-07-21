@@ -88,6 +88,13 @@ Sunday shows through 7pm. Only shows the monitor has seen bookable at least
 once can be watched (Cinemark's pages give sold-out shows no id), and past
 dates are skipped automatically.
 
+Seat map pages are rate limited by Cloudflare far more aggressively than the
+showtimes endpoint (roughly a dozen page loads per IP), so each run checks a
+rotating batch of 8 watched shows and picks up where it left off next run.
+With ~25 watched shows every show gets checked roughly every 45 to 60
+minutes. Keep the watchlist focused; watching everything dilutes how often
+each show is checked.
+
 ### Finding a showtimeId
 
 Any of these work:
