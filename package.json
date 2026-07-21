@@ -1,0 +1,10 @@
+{
+  "name": "odyssey-70mm-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alerts a Discord webhook when new showings or better seats appear for The Odyssey IMAX 70MM at Cinemark Dallas XD and IMAX",
+  "scripts": {
+    "start": "node monitor.js",
+    "discover": "node discover.js"
+  }
+}
