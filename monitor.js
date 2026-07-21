@@ -192,14 +192,76 @@ function saveState(state) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
 }
 
-function loadWatchlist() {
+function loadWatchlistConfig() {
   try {
     const data = JSON.parse(fs.readFileSync(WATCHLIST_FILE, "utf8"));
-    const ids = Array.isArray(data) ? data : data.showtimeIds || [];
-    return ids.map(String);
+    if (Array.isArray(data)) return { showtimeIds: data.map(String), rules: [] };
+    return {
+      showtimeIds: (data.showtimeIds || []).map(String),
+      rules: data.rules || [],
+    };
   } catch {
-    return [];
+    return { showtimeIds: [], rules: [] };
   }
+}
+
+// "7:45am" -> minutes since midnight.
+function timeLabelToMinutes(label) {
+  const m = /^(\d{1,2}):(\d{2})([ap])m$/.exec(label.trim().toLowerCase());
+  if (!m) return null;
+  let h = Number(m[1]) % 12;
+  if (m[3] === "p") h += 12;
+  return h * 60 + Number(m[2]);
+}
+
+// Minutes since midnight of the show's BUSINESS date, so a 2:30am late show
+// listed under Sunday counts as 26:30, not 2:30, and "until 7:00pm" on
+// Sunday correctly excludes it.
+function effectiveMinutes(show) {
+  let mins = timeLabelToMinutes(show.time);
+  if (mins === null) return null;
+  if (show.showtimeIso.slice(0, 10) > show.date) mins += 1440;
+  return mins;
+}
+
+function weekdayOf(date) {
+  return new Date(date + "T12:00:00Z").toLocaleDateString("en-US", {
+    weekday: "short",
+    timeZone: "UTC",
+  });
+}
+
+// A rule matches when every field it specifies matches (fields AND, rules OR).
+// Supported fields: day ("Sat"), time (exact label "7:00pm"),
+// until (label, show starts at or before it on its business date).
+function ruleMatches(rule, show) {
+  if (rule.day && weekdayOf(show.date) !== rule.day) return false;
+  if (
+    rule.time &&
+    timeLabelToMinutes(show.time) !== timeLabelToMinutes(rule.time)
+  )
+    return false;
+  if (rule.until) {
+    const mins = effectiveMinutes(show);
+    const cap = timeLabelToMinutes(rule.until);
+    if (mins === null || cap === null || mins > cap) return false;
+  }
+  return true;
+}
+
+// Resolve explicit ids plus rules against the shows currently in state,
+// skipping dates that are already over (theater runs on Chicago time).
+function resolveWatchlist(state) {
+  const { showtimeIds, rules } = loadWatchlistConfig();
+  const ids = new Set(showtimeIds);
+  const chicagoToday = new Date().toLocaleDateString("en-CA", {
+    timeZone: "America/Chicago",
+  });
+  for (const show of Object.values(state.showtimes)) {
+    if (show.date < chicagoToday) continue;
+    if (rules.some((r) => ruleMatches(r, show))) ids.add(show.showtimeId);
+  }
+  return [...ids].sort();
 }
 
 // ---------------------------------------------------------------------------
@@ -386,8 +448,9 @@ async function main() {
     state.latestDate = newLatest;
   }
 
-  // 5. Seat watching for watchlisted showtimeIds.
-  const watchlist = loadWatchlist();
+  // 5. Seat watching for watchlisted showtimeIds (explicit ids plus rules).
+  const watchlist = resolveWatchlist(state);
+  console.log(`Watchlist resolved to ${watchlist.length} show(s)`);
   for (const id of watchlist) {
     const show = state.showtimes[id];
     if (!show) {

@@ -53,18 +53,40 @@ The very first run baselines `state.json` without sending alerts, so you do
 not get spammed with 100+ "new showtime" messages. Diffing starts from the
 second run.
 
-## Watching seats on a specific show
+## Watching seats
 
-Add the showtimeId to `watchlist.json`:
+`watchlist.json` supports explicit showtimeIds, rules, or both:
 
 ```json
 {
-  "showtimeIds": ["635630", "640189"]
+  "showtimeIds": ["635630"],
+  "rules": [
+    { "time": "7:00pm" },
+    { "day": "Sat" },
+    { "day": "Sun", "until": "7:00pm" }
+  ]
 }
 ```
 
 You get an alert whenever the count of available center-section seats for a
 watched show increases, including which seat labels opened up.
+
+Rules are re-evaluated against the current schedule every run, so when a new
+booking block drops its matching shows are watched automatically. A rule
+matches a show when every field it specifies matches; separate rules are OR'd
+together. Fields:
+
+- `day`: short weekday name ("Mon" .. "Sun") of the show's business date.
+- `time`: exact showtime label, for example "7:00pm".
+- `until`: watch shows starting at or before this time. Late-night shows
+  (the 2:30am slot) belong to the previous day's schedule and count as after
+  midnight, so `{ "day": "Sun", "until": "7:00pm" }` excludes Sunday's 2:30am
+  late show.
+
+The example above means: the 7pm show every day, everything on Saturday, and
+Sunday shows through 7pm. Only shows the monitor has seen bookable at least
+once can be watched (Cinemark's pages give sold-out shows no id), and past
+dates are skipped automatically.
 
 ### Finding a showtimeId
 

@@ -1,3 +1,8 @@
 {
-  "showtimeIds": []
+  "showtimeIds": [],
+  "rules": [
+    { "time": "7:00pm" },
+    { "day": "Sat" },
+    { "day": "Sun", "until": "7:00pm" }
+  ]
 }
