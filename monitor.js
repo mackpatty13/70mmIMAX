@@ -29,14 +29,13 @@ const DELAY_MS = 1000; // pacing between requests, keeps Cloudflare happy
 const SEAT_DELAY_MS = 2000; // slower pacing for full-page seat map fetches
 const SEAT_BATCH = 8; // seat maps checked per run, rotating through the watchlist
 const ERROR_ALERT_COOLDOWN_MS = 6 * 60 * 60 * 1000; // 6 hours
-const REOPEN_ALERT_COOLDOWN_MS = 3 * 60 * 60 * 1000; // 3 hours
+const MIN_CENTER_SEATS = 2; // need at least a pair, singles are not worth an alert
 const WEBHOOK_URL = process.env.DISCORD_WEBHOOK_URL || "";
 
 const COLORS = {
   newShowtime: 0x2ecc71,
   newBlock: 0xe74c3c,
   seats: 0x3498db,
-  reopen: 0xf39c12,
   error: 0x95a5a6,
 };
 
@@ -198,17 +197,23 @@ function saveState(state) {
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + "\n");
 }
 
+let watchlistConfigCache = null;
 function loadWatchlistConfig() {
+  if (watchlistConfigCache) return watchlistConfigCache;
   try {
     const data = JSON.parse(fs.readFileSync(WATCHLIST_FILE, "utf8"));
-    if (Array.isArray(data)) return { showtimeIds: data.map(String), rules: [] };
-    return {
-      showtimeIds: (data.showtimeIds || []).map(String),
-      rules: data.rules || [],
-    };
+    if (Array.isArray(data)) {
+      watchlistConfigCache = { showtimeIds: data.map(String), rules: [] };
+    } else {
+      watchlistConfigCache = {
+        showtimeIds: (data.showtimeIds || []).map(String),
+        rules: data.rules || [],
+      };
+    }
   } catch {
-    return { showtimeIds: [], rules: [] };
+    watchlistConfigCache = { showtimeIds: [], rules: [] };
   }
+  return watchlistConfigCache;
 }
 
 // "7:45am" -> minutes since midnight.
@@ -239,7 +244,9 @@ function weekdayOf(date) {
 
 // A rule matches when every field it specifies matches (fields AND, rules OR).
 // Supported fields: day ("Sat"), time (exact label "7:00pm"),
-// until (label, show starts at or before it on its business date).
+// from (label, show starts at or after it on its business date),
+// until (label, show starts at or before it on its business date),
+// priority (integer, lower = more important, informational).
 function ruleMatches(rule, show) {
   if (rule.day && weekdayOf(show.date) !== rule.day) return false;
   if (
@@ -247,6 +254,11 @@ function ruleMatches(rule, show) {
     timeLabelToMinutes(show.time) !== timeLabelToMinutes(rule.time)
   )
     return false;
+  if (rule.from) {
+    const mins = effectiveMinutes(show);
+    const lo = timeLabelToMinutes(rule.from);
+    if (mins === null || lo === null || mins < lo) return false;
+  }
   if (rule.until) {
     const mins = effectiveMinutes(show);
     const cap = timeLabelToMinutes(rule.until);
@@ -255,8 +267,21 @@ function ruleMatches(rule, show) {
   return true;
 }
 
+// Lowest priority number among the rules a show matches, or null when no rule
+// matches. Shows matching no rule are invisible: no alerts, no seat watching.
+function showPriority(show) {
+  let best = null;
+  for (const rule of loadWatchlistConfig().rules) {
+    if (!ruleMatches(rule, show)) continue;
+    const p = Number.isInteger(rule.priority) ? rule.priority : 9;
+    if (best === null || p < best) best = p;
+  }
+  return best;
+}
+
 // Resolve explicit ids plus rules against the shows currently in state,
-// skipping dates that are already over (theater runs on Chicago time).
+// skipping dates that are already over (theater runs on Chicago time) and
+// sold-out shows (reopenings are usually a lone stray seat, not a pair).
 function resolveWatchlist(state) {
   const { showtimeIds, rules } = loadWatchlistConfig();
   const ids = new Set(showtimeIds);
@@ -265,6 +290,7 @@ function resolveWatchlist(state) {
   });
   for (const show of Object.values(state.showtimes)) {
     if (show.date < chicagoToday) continue;
+    if (show.status !== "bookable") continue;
     if (rules.some((r) => ruleMatches(r, show))) ids.add(show.showtimeId);
   }
   return [...ids].sort();
@@ -376,15 +402,13 @@ async function main() {
 
   const embeds = [];
 
-  // 3. Diff against state.
+  // 3. Diff against state. Only brand-new shows inside the priority windows
+  // alert; everything else (weekdays, 2:30am late shows, sold-out shows
+  // coming back) is tracked silently.
   const prevLatest = state.latestDate;
-  const newShows = [...current.values()].filter((s) => !state.showtimes[s.showtimeId]);
-  const reopened = [...current.values()].filter((s) => {
-    const prev = state.showtimes[s.showtimeId];
-    if (!prev || prev.status !== "soldOut") return false;
-    const last = prev.lastReopenAlertAt ? Date.parse(prev.lastReopenAlertAt) : 0;
-    return Date.now() - last > REOPEN_ALERT_COOLDOWN_MS;
-  });
+  const newShows = [...current.values()].filter(
+    (s) => !state.showtimes[s.showtimeId] && showPriority(s) !== null
+  );
 
   const currentDates = [...current.values()].map((s) => s.date).sort();
   const newLatest = currentDates.at(-1) || null;
@@ -392,8 +416,17 @@ async function main() {
   const blockShows = isNewBlock ? newShows.filter((s) => s.date > prevLatest) : [];
   const ordinaryNew = newShows.filter((s) => !blockShows.includes(s));
 
+  const byPriority = (a, b) =>
+    showPriority(a) - showPriority(b) ||
+    a.date.localeCompare(b.date) ||
+    effectiveMinutes(a) - effectiveMinutes(b);
+  blockShows.sort(byPriority);
+  ordinaryNew.sort(byPriority);
+
   const showLine = (s) =>
-    `**${fmtDate(s.date)} ${s.time}** [Tickets](${s.ticketUrl}) (id ${s.showtimeId})`;
+    `**[P${showPriority(s)}] ${fmtDate(s.date)} ${s.time}**` +
+    (weekdayOf(s.date) === "Fri" && s.time === "7:00pm" ? " ⭐ TOP PICK" : "") +
+    ` [Tickets](${s.ticketUrl}) (id ${s.showtimeId})`;
 
   if (!firstRun && isNewBlock && blockShows.length) {
     embeds.push({
@@ -414,15 +447,6 @@ async function main() {
       timestamp: now,
     });
   }
-  if (!firstRun && reopened.length) {
-    embeds.push({
-      title: `🎟️ Sold-out show reopened: ${MOVIE_TITLE}`,
-      description: reopened.map(showLine).join("\n").slice(0, 3800),
-      color: COLORS.reopen,
-      timestamp: now,
-    });
-  }
-
   // 4. Update showtime state. Entries persist after selling out so watched
   // showtimeIds keep their metadata; old dates get pruned.
   for (const [id, show] of current) {
@@ -434,9 +458,6 @@ async function main() {
       firstSeen: prev.firstSeen || now,
       lastSeen: now,
     };
-    if (reopened.some((r) => r.showtimeId === id)) {
-      state.showtimes[id].lastReopenAlertAt = now;
-    }
   }
   for (const [id, show] of Object.entries(state.showtimes)) {
     if (!current.has(id) && show.status === "bookable" && !fetchErrors.length) {
@@ -485,7 +506,7 @@ async function main() {
       seat403Streak = 0;
       const center = centerAvailable(seats);
       const prev = state.seats[id];
-      if (prev && center.length > prev.count) {
+      if (prev && center.length > prev.count && center.length >= MIN_CENTER_SEATS) {
         const opened = center.filter((l) => !prev.seats.includes(l));
         embeds.push({
           title: `💺 Center seats opened: ${fmtDate(show.date)} ${show.time}`,

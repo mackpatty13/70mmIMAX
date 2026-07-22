@@ -2,7 +2,9 @@ name: showtime-monitor
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    # 5 minutes is GitHub's minimum for scheduled workflows. Actual cadence
+    # is best-effort; expect some runs to land 5 to 15 minutes apart.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
