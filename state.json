@@ -236,14 +236,14 @@
       "lastSeen": "2026-07-30T07:07:25.675Z"
     },
     "634426": {
-      "date": "2026-07-30",
+      "date": "2026-09-25",
       "time": "11:30am",
       "showtimeId": "634426",
       "showtimeIso": "2026-07-30T11:30:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634426&CinemarkMovieId=104867&Showtime=2026-07-30T11:30:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-28T04:27:01.789Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "634427": {
       "date": "2026-09-25",
@@ -251,19 +251,19 @@
       "showtimeId": "634427",
       "showtimeIso": "2026-07-30T15:15:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634427&CinemarkMovieId=104867&Showtime=2026-07-30T15:15:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T02:51:13.929Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
     "634428": {
-      "date": "2026-07-30",
+      "date": "2026-09-25",
       "time": "7:00pm",
       "showtimeId": "634428",
       "showtimeIso": "2026-07-30T19:00:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634428&CinemarkMovieId=104867&Showtime=2026-07-30T19:00:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-26T22:12:11.023Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "634429": {
       "date": "2026-07-30",
@@ -277,14 +277,14 @@
       "lastReopenAlertAt": "2026-07-22T19:41:22.760Z"
     },
     "634430": {
-      "date": "2026-07-30",
+      "date": "2026-09-25",
       "time": "2:30am",
       "showtimeId": "634430",
       "showtimeIso": "2026-07-31T02:30:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634430&CinemarkMovieId=104867&Showtime=2026-07-31T02:30:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T01:06:13.977Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "634497": {
       "date": "2026-08-01",
@@ -322,7 +322,7 @@
       "showtimeId": "634500",
       "showtimeIso": "2026-07-31T11:30:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634500&CinemarkMovieId=104867&Showtime=2026-07-31T11:30:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T02:51:13.929Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -474,9 +474,9 @@
       "showtimeId": "634515",
       "showtimeIso": "2026-08-03T19:00:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634515&CinemarkMovieId=104867&Showtime=2026-08-03T19:00:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-28T01:06:53.088Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "634516": {
       "date": "2026-08-03",
@@ -604,7 +604,7 @@
       "showtimeId": "634528",
       "showtimeIso": "2026-08-05T07:45:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=634528&CinemarkMovieId=104867&Showtime=2026-08-05T07:45:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T02:51:13.929Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -775,7 +775,7 @@
       "showtimeId": "635630",
       "showtimeIso": "2026-08-08T19:00:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=635630&CinemarkMovieId=104867&Showtime=2026-08-08T19:00:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T02:51:13.929Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -845,7 +845,7 @@
       "showtimeId": "635638",
       "showtimeIso": "2026-08-10T07:45:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=635638&CinemarkMovieId=104867&Showtime=2026-08-10T07:45:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T02:51:13.929Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -925,9 +925,9 @@
       "showtimeId": "635646",
       "showtimeIso": "2026-08-11T22:45:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=635646&CinemarkMovieId=104867&Showtime=2026-08-11T22:45:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-27T23:40:54.764Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "635647": {
       "date": "2026-08-11",
@@ -977,7 +977,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=635651&CinemarkMovieId=104867&Showtime=2026-08-12T22:45:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "635652": {
       "date": "2026-08-12",
@@ -997,7 +997,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=635998&CinemarkMovieId=104867&Showtime=2026-08-07T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "639919": {
       "date": "2026-08-07",
@@ -1005,9 +1005,9 @@
       "showtimeId": "639919",
       "showtimeIso": "2026-08-08T02:30:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=639919&CinemarkMovieId=104867&Showtime=2026-08-08T02:30:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-27T00:17:18.838Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "639920": {
       "date": "2026-08-08",
@@ -1027,7 +1027,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=639921&CinemarkMovieId=104867&Showtime=2026-08-10T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "639922": {
       "date": "2026-08-10",
@@ -1037,7 +1037,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=639922&CinemarkMovieId=104867&Showtime=2026-08-11T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "639923": {
       "date": "2026-08-11",
@@ -1057,7 +1057,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=639924&CinemarkMovieId=104867&Showtime=2026-08-13T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:51:13.929Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "640186": {
       "date": "2026-08-13",
@@ -1117,7 +1117,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640191&CinemarkMovieId=104867&Showtime=2026-08-14T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T02:53:35.909Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "640193": {
       "date": "2026-08-14",
@@ -1237,7 +1237,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640204&CinemarkMovieId=104867&Showtime=2026-08-16T15:15:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T12:20:36.831Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "640205": {
       "date": "2026-08-16",
@@ -1457,7 +1457,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640519&CinemarkMovieId=104867&Showtime=2026-08-17T07:45:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T14:32:28.033Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "640544": {
       "date": "2026-08-19",
@@ -1465,7 +1465,7 @@
       "showtimeId": "640544",
       "showtimeIso": "2026-08-19T11:30:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640544&CinemarkMovieId=104867&Showtime=2026-08-19T11:30:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T14:32:28.033Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -1475,7 +1475,7 @@
       "showtimeId": "640545",
       "showtimeIso": "2026-08-19T15:15:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640545&CinemarkMovieId=104867&Showtime=2026-08-19T15:15:00",
-      "status": "bookable",
+      "status": "soldOut",
       "firstSeen": "2026-07-21T14:32:28.033Z",
       "lastSeen": "2026-07-30T11:35:24.371Z"
     },
@@ -1507,7 +1507,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640548&CinemarkMovieId=104867&Showtime=2026-08-19T07:45:00",
       "status": "bookable",
       "firstSeen": "2026-07-21T14:32:28.033Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "640900": {
       "date": "2026-08-14",
@@ -1537,7 +1537,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=640992&CinemarkMovieId=104867&Showtime=2026-08-17T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-22T04:32:23.443Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641680": {
       "date": "2026-08-20",
@@ -1547,7 +1547,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641680&CinemarkMovieId=104867&Showtime=2026-08-20T07:45:00",
       "status": "bookable",
       "firstSeen": "2026-07-28T22:01:29.649Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641681": {
       "date": "2026-08-20",
@@ -1557,7 +1557,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641681&CinemarkMovieId=104867&Showtime=2026-08-20T11:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-28T22:01:29.649Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641682": {
       "date": "2026-08-20",
@@ -1567,7 +1567,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641682&CinemarkMovieId=104867&Showtime=2026-08-20T15:15:00",
       "status": "bookable",
       "firstSeen": "2026-07-28T22:01:29.649Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641683": {
       "date": "2026-08-20",
@@ -1577,7 +1577,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641683&CinemarkMovieId=104867&Showtime=2026-08-20T19:00:00",
       "status": "bookable",
       "firstSeen": "2026-07-28T22:01:29.649Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641684": {
       "date": "2026-08-20",
@@ -1587,7 +1587,27 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641684&CinemarkMovieId=104867&Showtime=2026-08-20T22:45:00",
       "status": "bookable",
       "firstSeen": "2026-07-28T22:01:29.649Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641691": {
+      "date": "2026-08-21",
+      "time": "11:45am",
+      "showtimeId": "641691",
+      "showtimeIso": "2026-08-21T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641691&CinemarkMovieId=104867&Showtime=2026-08-21T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641692": {
+      "date": "2026-08-21",
+      "time": "3:30pm",
+      "showtimeId": "641692",
+      "showtimeIso": "2026-08-21T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641692&CinemarkMovieId=104867&Showtime=2026-08-21T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641693": {
       "date": "2026-08-21",
@@ -1595,9 +1615,119 @@
       "showtimeId": "641693",
       "showtimeIso": "2026-08-21T19:15:00",
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641693&CinemarkMovieId=104867&Showtime=2026-08-21T19:15:00",
-      "status": "soldOut",
+      "status": "bookable",
       "firstSeen": "2026-07-28T23:13:16.872Z",
-      "lastSeen": "2026-07-28T23:13:16.872Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641694": {
+      "date": "2026-08-21",
+      "time": "11:00pm",
+      "showtimeId": "641694",
+      "showtimeIso": "2026-08-21T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641694&CinemarkMovieId=104867&Showtime=2026-08-21T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641695": {
+      "date": "2026-08-21",
+      "time": "8:00am",
+      "showtimeId": "641695",
+      "showtimeIso": "2026-08-21T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641695&CinemarkMovieId=104867&Showtime=2026-08-21T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641696": {
+      "date": "2026-08-21",
+      "time": "2:45am",
+      "showtimeId": "641696",
+      "showtimeIso": "2026-08-22T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641696&CinemarkMovieId=104867&Showtime=2026-08-22T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641697": {
+      "date": "2026-08-22",
+      "time": "8:00am",
+      "showtimeId": "641697",
+      "showtimeIso": "2026-08-22T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641697&CinemarkMovieId=104867&Showtime=2026-08-22T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641698": {
+      "date": "2026-08-22",
+      "time": "11:45am",
+      "showtimeId": "641698",
+      "showtimeIso": "2026-08-22T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641698&CinemarkMovieId=104867&Showtime=2026-08-22T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641699": {
+      "date": "2026-08-22",
+      "time": "3:30pm",
+      "showtimeId": "641699",
+      "showtimeIso": "2026-08-22T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641699&CinemarkMovieId=104867&Showtime=2026-08-22T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641700": {
+      "date": "2026-08-22",
+      "time": "7:15pm",
+      "showtimeId": "641700",
+      "showtimeIso": "2026-08-22T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641700&CinemarkMovieId=104867&Showtime=2026-08-22T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641701": {
+      "date": "2026-08-22",
+      "time": "11:00pm",
+      "showtimeId": "641701",
+      "showtimeIso": "2026-08-22T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641701&CinemarkMovieId=104867&Showtime=2026-08-22T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641702": {
+      "date": "2026-08-22",
+      "time": "2:45am",
+      "showtimeId": "641702",
+      "showtimeIso": "2026-08-23T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641702&CinemarkMovieId=104867&Showtime=2026-08-23T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641703": {
+      "date": "2026-08-23",
+      "time": "8:00am",
+      "showtimeId": "641703",
+      "showtimeIso": "2026-08-23T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641703&CinemarkMovieId=104867&Showtime=2026-08-23T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641704": {
+      "date": "2026-08-23",
+      "time": "11:45am",
+      "showtimeId": "641704",
+      "showtimeIso": "2026-08-23T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641704&CinemarkMovieId=104867&Showtime=2026-08-23T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641705": {
       "date": "2026-08-23",
@@ -1607,7 +1737,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641705&CinemarkMovieId=104867&Showtime=2026-08-23T15:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-29T16:54:19.537Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641706": {
       "date": "2026-08-23",
@@ -1617,7 +1747,327 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641706&CinemarkMovieId=104867&Showtime=2026-08-23T19:15:00",
       "status": "bookable",
       "firstSeen": "2026-07-30T07:07:25.675Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641707": {
+      "date": "2026-08-23",
+      "time": "11:00pm",
+      "showtimeId": "641707",
+      "showtimeIso": "2026-08-23T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641707&CinemarkMovieId=104867&Showtime=2026-08-23T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641708": {
+      "date": "2026-08-23",
+      "time": "2:45am",
+      "showtimeId": "641708",
+      "showtimeIso": "2026-08-24T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641708&CinemarkMovieId=104867&Showtime=2026-08-24T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641709": {
+      "date": "2026-08-24",
+      "time": "8:00am",
+      "showtimeId": "641709",
+      "showtimeIso": "2026-08-24T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641709&CinemarkMovieId=104867&Showtime=2026-08-24T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641710": {
+      "date": "2026-08-24",
+      "time": "11:45am",
+      "showtimeId": "641710",
+      "showtimeIso": "2026-08-24T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641710&CinemarkMovieId=104867&Showtime=2026-08-24T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641711": {
+      "date": "2026-08-24",
+      "time": "3:30pm",
+      "showtimeId": "641711",
+      "showtimeIso": "2026-08-24T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641711&CinemarkMovieId=104867&Showtime=2026-08-24T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641712": {
+      "date": "2026-08-24",
+      "time": "7:15pm",
+      "showtimeId": "641712",
+      "showtimeIso": "2026-08-24T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641712&CinemarkMovieId=104867&Showtime=2026-08-24T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641713": {
+      "date": "2026-08-24",
+      "time": "11:00pm",
+      "showtimeId": "641713",
+      "showtimeIso": "2026-08-24T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641713&CinemarkMovieId=104867&Showtime=2026-08-24T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641714": {
+      "date": "2026-08-25",
+      "time": "8:00am",
+      "showtimeId": "641714",
+      "showtimeIso": "2026-08-25T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641714&CinemarkMovieId=104867&Showtime=2026-08-25T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641715": {
+      "date": "2026-08-25",
+      "time": "11:45am",
+      "showtimeId": "641715",
+      "showtimeIso": "2026-08-25T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641715&CinemarkMovieId=104867&Showtime=2026-08-25T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641716": {
+      "date": "2026-08-25",
+      "time": "3:30pm",
+      "showtimeId": "641716",
+      "showtimeIso": "2026-08-25T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641716&CinemarkMovieId=104867&Showtime=2026-08-25T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641717": {
+      "date": "2026-08-25",
+      "time": "7:15pm",
+      "showtimeId": "641717",
+      "showtimeIso": "2026-08-25T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641717&CinemarkMovieId=104867&Showtime=2026-08-25T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641718": {
+      "date": "2026-08-25",
+      "time": "11:00pm",
+      "showtimeId": "641718",
+      "showtimeIso": "2026-08-25T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641718&CinemarkMovieId=104867&Showtime=2026-08-25T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641724": {
+      "date": "2026-08-27",
+      "time": "8:00am",
+      "showtimeId": "641724",
+      "showtimeIso": "2026-08-27T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641724&CinemarkMovieId=104867&Showtime=2026-08-27T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641725": {
+      "date": "2026-08-27",
+      "time": "11:45am",
+      "showtimeId": "641725",
+      "showtimeIso": "2026-08-27T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641725&CinemarkMovieId=104867&Showtime=2026-08-27T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641726": {
+      "date": "2026-08-27",
+      "time": "3:30pm",
+      "showtimeId": "641726",
+      "showtimeIso": "2026-08-27T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641726&CinemarkMovieId=104867&Showtime=2026-08-27T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641727": {
+      "date": "2026-08-27",
+      "time": "7:15pm",
+      "showtimeId": "641727",
+      "showtimeIso": "2026-08-27T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641727&CinemarkMovieId=104867&Showtime=2026-08-27T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641728": {
+      "date": "2026-08-27",
+      "time": "11:00pm",
+      "showtimeId": "641728",
+      "showtimeIso": "2026-08-27T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641728&CinemarkMovieId=104867&Showtime=2026-08-27T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641733": {
+      "date": "2026-08-28",
+      "time": "8:00am",
+      "showtimeId": "641733",
+      "showtimeIso": "2026-08-28T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641733&CinemarkMovieId=104867&Showtime=2026-08-28T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641734": {
+      "date": "2026-08-28",
+      "time": "11:45am",
+      "showtimeId": "641734",
+      "showtimeIso": "2026-08-28T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641734&CinemarkMovieId=104867&Showtime=2026-08-28T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641735": {
+      "date": "2026-08-28",
+      "time": "3:30pm",
+      "showtimeId": "641735",
+      "showtimeIso": "2026-08-28T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641735&CinemarkMovieId=104867&Showtime=2026-08-28T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641736": {
+      "date": "2026-08-28",
+      "time": "7:15pm",
+      "showtimeId": "641736",
+      "showtimeIso": "2026-08-28T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641736&CinemarkMovieId=104867&Showtime=2026-08-28T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641737": {
+      "date": "2026-08-28",
+      "time": "11:00pm",
+      "showtimeId": "641737",
+      "showtimeIso": "2026-08-28T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641737&CinemarkMovieId=104867&Showtime=2026-08-28T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641738": {
+      "date": "2026-08-28",
+      "time": "2:45am",
+      "showtimeId": "641738",
+      "showtimeIso": "2026-08-29T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641738&CinemarkMovieId=104867&Showtime=2026-08-29T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641739": {
+      "date": "2026-08-29",
+      "time": "8:00am",
+      "showtimeId": "641739",
+      "showtimeIso": "2026-08-29T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641739&CinemarkMovieId=104867&Showtime=2026-08-29T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641740": {
+      "date": "2026-08-29",
+      "time": "11:45am",
+      "showtimeId": "641740",
+      "showtimeIso": "2026-08-29T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641740&CinemarkMovieId=104867&Showtime=2026-08-29T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641741": {
+      "date": "2026-08-29",
+      "time": "3:30pm",
+      "showtimeId": "641741",
+      "showtimeIso": "2026-08-29T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641741&CinemarkMovieId=104867&Showtime=2026-08-29T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641742": {
+      "date": "2026-08-29",
+      "time": "7:15pm",
+      "showtimeId": "641742",
+      "showtimeIso": "2026-08-29T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641742&CinemarkMovieId=104867&Showtime=2026-08-29T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641743": {
+      "date": "2026-08-29",
+      "time": "11:00pm",
+      "showtimeId": "641743",
+      "showtimeIso": "2026-08-29T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641743&CinemarkMovieId=104867&Showtime=2026-08-29T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641744": {
+      "date": "2026-08-29",
+      "time": "2:45am",
+      "showtimeId": "641744",
+      "showtimeIso": "2026-08-30T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641744&CinemarkMovieId=104867&Showtime=2026-08-30T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641745": {
+      "date": "2026-08-30",
+      "time": "8:00am",
+      "showtimeId": "641745",
+      "showtimeIso": "2026-08-30T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641745&CinemarkMovieId=104867&Showtime=2026-08-30T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641746": {
+      "date": "2026-08-30",
+      "time": "11:45am",
+      "showtimeId": "641746",
+      "showtimeIso": "2026-08-30T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641746&CinemarkMovieId=104867&Showtime=2026-08-30T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641747": {
+      "date": "2026-08-30",
+      "time": "3:30pm",
+      "showtimeId": "641747",
+      "showtimeIso": "2026-08-30T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641747&CinemarkMovieId=104867&Showtime=2026-08-30T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641748": {
       "date": "2026-08-30",
@@ -1627,7 +2077,57 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641748&CinemarkMovieId=104867&Showtime=2026-08-30T19:15:00",
       "status": "bookable",
       "firstSeen": "2026-07-30T07:07:25.675Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641749": {
+      "date": "2026-08-30",
+      "time": "11:00pm",
+      "showtimeId": "641749",
+      "showtimeIso": "2026-08-30T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641749&CinemarkMovieId=104867&Showtime=2026-08-30T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641750": {
+      "date": "2026-08-30",
+      "time": "2:45am",
+      "showtimeId": "641750",
+      "showtimeIso": "2026-08-31T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641750&CinemarkMovieId=104867&Showtime=2026-08-31T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641751": {
+      "date": "2026-08-31",
+      "time": "8:00am",
+      "showtimeId": "641751",
+      "showtimeIso": "2026-08-31T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641751&CinemarkMovieId=104867&Showtime=2026-08-31T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641752": {
+      "date": "2026-08-31",
+      "time": "11:45am",
+      "showtimeId": "641752",
+      "showtimeIso": "2026-08-31T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641752&CinemarkMovieId=104867&Showtime=2026-08-31T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641753": {
+      "date": "2026-08-31",
+      "time": "3:30pm",
+      "showtimeId": "641753",
+      "showtimeIso": "2026-08-31T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641753&CinemarkMovieId=104867&Showtime=2026-08-31T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641754": {
       "date": "2026-08-31",
@@ -1637,7 +2137,877 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641754&CinemarkMovieId=104867&Showtime=2026-08-31T19:15:00",
       "status": "bookable",
       "firstSeen": "2026-07-30T09:41:34.986Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641755": {
+      "date": "2026-08-31",
+      "time": "11:00pm",
+      "showtimeId": "641755",
+      "showtimeIso": "2026-08-31T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641755&CinemarkMovieId=104867&Showtime=2026-08-31T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641756": {
+      "date": "2026-09-01",
+      "time": "8:00am",
+      "showtimeId": "641756",
+      "showtimeIso": "2026-09-01T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641756&CinemarkMovieId=104867&Showtime=2026-09-01T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641757": {
+      "date": "2026-09-01",
+      "time": "11:45am",
+      "showtimeId": "641757",
+      "showtimeIso": "2026-09-01T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641757&CinemarkMovieId=104867&Showtime=2026-09-01T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641758": {
+      "date": "2026-09-01",
+      "time": "3:30pm",
+      "showtimeId": "641758",
+      "showtimeIso": "2026-09-01T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641758&CinemarkMovieId=104867&Showtime=2026-09-01T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641759": {
+      "date": "2026-09-01",
+      "time": "7:15pm",
+      "showtimeId": "641759",
+      "showtimeIso": "2026-09-01T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641759&CinemarkMovieId=104867&Showtime=2026-09-01T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641760": {
+      "date": "2026-09-01",
+      "time": "11:00pm",
+      "showtimeId": "641760",
+      "showtimeIso": "2026-09-01T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641760&CinemarkMovieId=104867&Showtime=2026-09-01T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641761": {
+      "date": "2026-09-02",
+      "time": "8:00am",
+      "showtimeId": "641761",
+      "showtimeIso": "2026-09-02T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641761&CinemarkMovieId=104867&Showtime=2026-09-02T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641762": {
+      "date": "2026-09-02",
+      "time": "11:45am",
+      "showtimeId": "641762",
+      "showtimeIso": "2026-09-02T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641762&CinemarkMovieId=104867&Showtime=2026-09-02T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641763": {
+      "date": "2026-09-02",
+      "time": "3:30pm",
+      "showtimeId": "641763",
+      "showtimeIso": "2026-09-02T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641763&CinemarkMovieId=104867&Showtime=2026-09-02T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641764": {
+      "date": "2026-09-02",
+      "time": "7:15pm",
+      "showtimeId": "641764",
+      "showtimeIso": "2026-09-02T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641764&CinemarkMovieId=104867&Showtime=2026-09-02T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641765": {
+      "date": "2026-09-02",
+      "time": "11:00pm",
+      "showtimeId": "641765",
+      "showtimeIso": "2026-09-02T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641765&CinemarkMovieId=104867&Showtime=2026-09-02T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641766": {
+      "date": "2026-09-03",
+      "time": "8:00am",
+      "showtimeId": "641766",
+      "showtimeIso": "2026-09-03T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641766&CinemarkMovieId=104867&Showtime=2026-09-03T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641767": {
+      "date": "2026-09-03",
+      "time": "11:45am",
+      "showtimeId": "641767",
+      "showtimeIso": "2026-09-03T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641767&CinemarkMovieId=104867&Showtime=2026-09-03T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641768": {
+      "date": "2026-09-03",
+      "time": "3:30pm",
+      "showtimeId": "641768",
+      "showtimeIso": "2026-09-03T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641768&CinemarkMovieId=104867&Showtime=2026-09-03T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641769": {
+      "date": "2026-09-03",
+      "time": "7:15pm",
+      "showtimeId": "641769",
+      "showtimeIso": "2026-09-03T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641769&CinemarkMovieId=104867&Showtime=2026-09-03T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641770": {
+      "date": "2026-09-03",
+      "time": "11:00pm",
+      "showtimeId": "641770",
+      "showtimeIso": "2026-09-03T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641770&CinemarkMovieId=104867&Showtime=2026-09-03T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641771": {
+      "date": "2026-09-04",
+      "time": "8:00am",
+      "showtimeId": "641771",
+      "showtimeIso": "2026-09-04T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641771&CinemarkMovieId=104867&Showtime=2026-09-04T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641772": {
+      "date": "2026-09-04",
+      "time": "11:45am",
+      "showtimeId": "641772",
+      "showtimeIso": "2026-09-04T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641772&CinemarkMovieId=104867&Showtime=2026-09-04T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641773": {
+      "date": "2026-09-04",
+      "time": "3:30pm",
+      "showtimeId": "641773",
+      "showtimeIso": "2026-09-04T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641773&CinemarkMovieId=104867&Showtime=2026-09-04T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641774": {
+      "date": "2026-09-04",
+      "time": "7:15pm",
+      "showtimeId": "641774",
+      "showtimeIso": "2026-09-04T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641774&CinemarkMovieId=104867&Showtime=2026-09-04T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641775": {
+      "date": "2026-09-04",
+      "time": "11:00pm",
+      "showtimeId": "641775",
+      "showtimeIso": "2026-09-04T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641775&CinemarkMovieId=104867&Showtime=2026-09-04T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641776": {
+      "date": "2026-09-04",
+      "time": "2:45am",
+      "showtimeId": "641776",
+      "showtimeIso": "2026-09-05T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641776&CinemarkMovieId=104867&Showtime=2026-09-05T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641777": {
+      "date": "2026-09-05",
+      "time": "8:00am",
+      "showtimeId": "641777",
+      "showtimeIso": "2026-09-05T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641777&CinemarkMovieId=104867&Showtime=2026-09-05T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641778": {
+      "date": "2026-09-05",
+      "time": "11:45am",
+      "showtimeId": "641778",
+      "showtimeIso": "2026-09-05T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641778&CinemarkMovieId=104867&Showtime=2026-09-05T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641779": {
+      "date": "2026-09-05",
+      "time": "3:30pm",
+      "showtimeId": "641779",
+      "showtimeIso": "2026-09-05T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641779&CinemarkMovieId=104867&Showtime=2026-09-05T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641780": {
+      "date": "2026-09-05",
+      "time": "7:15pm",
+      "showtimeId": "641780",
+      "showtimeIso": "2026-09-05T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641780&CinemarkMovieId=104867&Showtime=2026-09-05T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641781": {
+      "date": "2026-09-05",
+      "time": "11:00pm",
+      "showtimeId": "641781",
+      "showtimeIso": "2026-09-05T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641781&CinemarkMovieId=104867&Showtime=2026-09-05T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641782": {
+      "date": "2026-09-05",
+      "time": "2:45am",
+      "showtimeId": "641782",
+      "showtimeIso": "2026-09-06T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641782&CinemarkMovieId=104867&Showtime=2026-09-06T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641783": {
+      "date": "2026-09-06",
+      "time": "8:00am",
+      "showtimeId": "641783",
+      "showtimeIso": "2026-09-06T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641783&CinemarkMovieId=104867&Showtime=2026-09-06T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641784": {
+      "date": "2026-09-06",
+      "time": "11:45am",
+      "showtimeId": "641784",
+      "showtimeIso": "2026-09-06T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641784&CinemarkMovieId=104867&Showtime=2026-09-06T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641785": {
+      "date": "2026-09-06",
+      "time": "3:30pm",
+      "showtimeId": "641785",
+      "showtimeIso": "2026-09-06T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641785&CinemarkMovieId=104867&Showtime=2026-09-06T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641786": {
+      "date": "2026-09-06",
+      "time": "7:15pm",
+      "showtimeId": "641786",
+      "showtimeIso": "2026-09-06T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641786&CinemarkMovieId=104867&Showtime=2026-09-06T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641787": {
+      "date": "2026-09-06",
+      "time": "11:00pm",
+      "showtimeId": "641787",
+      "showtimeIso": "2026-09-06T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641787&CinemarkMovieId=104867&Showtime=2026-09-06T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641788": {
+      "date": "2026-09-06",
+      "time": "2:45am",
+      "showtimeId": "641788",
+      "showtimeIso": "2026-09-07T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641788&CinemarkMovieId=104867&Showtime=2026-09-07T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641789": {
+      "date": "2026-09-11",
+      "time": "8:00am",
+      "showtimeId": "641789",
+      "showtimeIso": "2026-09-11T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641789&CinemarkMovieId=104867&Showtime=2026-09-11T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641790": {
+      "date": "2026-09-11",
+      "time": "11:45am",
+      "showtimeId": "641790",
+      "showtimeIso": "2026-09-11T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641790&CinemarkMovieId=104867&Showtime=2026-09-11T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641791": {
+      "date": "2026-09-11",
+      "time": "3:30pm",
+      "showtimeId": "641791",
+      "showtimeIso": "2026-09-11T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641791&CinemarkMovieId=104867&Showtime=2026-09-11T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641792": {
+      "date": "2026-09-11",
+      "time": "7:15pm",
+      "showtimeId": "641792",
+      "showtimeIso": "2026-09-11T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641792&CinemarkMovieId=104867&Showtime=2026-09-11T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641793": {
+      "date": "2026-09-11",
+      "time": "11:00pm",
+      "showtimeId": "641793",
+      "showtimeIso": "2026-09-11T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641793&CinemarkMovieId=104867&Showtime=2026-09-11T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641794": {
+      "date": "2026-09-11",
+      "time": "2:45am",
+      "showtimeId": "641794",
+      "showtimeIso": "2026-09-12T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641794&CinemarkMovieId=104867&Showtime=2026-09-12T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641795": {
+      "date": "2026-09-12",
+      "time": "8:00am",
+      "showtimeId": "641795",
+      "showtimeIso": "2026-09-12T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641795&CinemarkMovieId=104867&Showtime=2026-09-12T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641796": {
+      "date": "2026-09-12",
+      "time": "11:45am",
+      "showtimeId": "641796",
+      "showtimeIso": "2026-09-12T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641796&CinemarkMovieId=104867&Showtime=2026-09-12T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641797": {
+      "date": "2026-09-12",
+      "time": "3:30pm",
+      "showtimeId": "641797",
+      "showtimeIso": "2026-09-12T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641797&CinemarkMovieId=104867&Showtime=2026-09-12T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641798": {
+      "date": "2026-09-12",
+      "time": "7:15pm",
+      "showtimeId": "641798",
+      "showtimeIso": "2026-09-12T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641798&CinemarkMovieId=104867&Showtime=2026-09-12T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641799": {
+      "date": "2026-09-12",
+      "time": "11:00pm",
+      "showtimeId": "641799",
+      "showtimeIso": "2026-09-12T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641799&CinemarkMovieId=104867&Showtime=2026-09-12T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641800": {
+      "date": "2026-09-12",
+      "time": "2:45am",
+      "showtimeId": "641800",
+      "showtimeIso": "2026-09-13T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641800&CinemarkMovieId=104867&Showtime=2026-09-13T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641801": {
+      "date": "2026-09-13",
+      "time": "8:00am",
+      "showtimeId": "641801",
+      "showtimeIso": "2026-09-13T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641801&CinemarkMovieId=104867&Showtime=2026-09-13T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641802": {
+      "date": "2026-09-13",
+      "time": "11:45am",
+      "showtimeId": "641802",
+      "showtimeIso": "2026-09-13T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641802&CinemarkMovieId=104867&Showtime=2026-09-13T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641803": {
+      "date": "2026-09-13",
+      "time": "3:30pm",
+      "showtimeId": "641803",
+      "showtimeIso": "2026-09-13T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641803&CinemarkMovieId=104867&Showtime=2026-09-13T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641804": {
+      "date": "2026-09-13",
+      "time": "7:15pm",
+      "showtimeId": "641804",
+      "showtimeIso": "2026-09-13T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641804&CinemarkMovieId=104867&Showtime=2026-09-13T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641805": {
+      "date": "2026-09-13",
+      "time": "11:00pm",
+      "showtimeId": "641805",
+      "showtimeIso": "2026-09-13T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641805&CinemarkMovieId=104867&Showtime=2026-09-13T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641806": {
+      "date": "2026-09-13",
+      "time": "2:45am",
+      "showtimeId": "641806",
+      "showtimeIso": "2026-09-14T02:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641806&CinemarkMovieId=104867&Showtime=2026-09-14T02:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641807": {
+      "date": "2026-09-07",
+      "time": "8:00am",
+      "showtimeId": "641807",
+      "showtimeIso": "2026-09-07T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641807&CinemarkMovieId=104867&Showtime=2026-09-07T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641808": {
+      "date": "2026-09-07",
+      "time": "11:45am",
+      "showtimeId": "641808",
+      "showtimeIso": "2026-09-07T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641808&CinemarkMovieId=104867&Showtime=2026-09-07T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641809": {
+      "date": "2026-09-07",
+      "time": "3:30pm",
+      "showtimeId": "641809",
+      "showtimeIso": "2026-09-07T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641809&CinemarkMovieId=104867&Showtime=2026-09-07T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641810": {
+      "date": "2026-09-07",
+      "time": "7:15pm",
+      "showtimeId": "641810",
+      "showtimeIso": "2026-09-07T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641810&CinemarkMovieId=104867&Showtime=2026-09-07T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641811": {
+      "date": "2026-09-07",
+      "time": "11:00pm",
+      "showtimeId": "641811",
+      "showtimeIso": "2026-09-07T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641811&CinemarkMovieId=104867&Showtime=2026-09-07T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641812": {
+      "date": "2026-09-08",
+      "time": "8:00am",
+      "showtimeId": "641812",
+      "showtimeIso": "2026-09-08T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641812&CinemarkMovieId=104867&Showtime=2026-09-08T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641813": {
+      "date": "2026-09-08",
+      "time": "11:45am",
+      "showtimeId": "641813",
+      "showtimeIso": "2026-09-08T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641813&CinemarkMovieId=104867&Showtime=2026-09-08T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641814": {
+      "date": "2026-09-08",
+      "time": "3:30pm",
+      "showtimeId": "641814",
+      "showtimeIso": "2026-09-08T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641814&CinemarkMovieId=104867&Showtime=2026-09-08T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641815": {
+      "date": "2026-09-08",
+      "time": "7:15pm",
+      "showtimeId": "641815",
+      "showtimeIso": "2026-09-08T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641815&CinemarkMovieId=104867&Showtime=2026-09-08T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641816": {
+      "date": "2026-09-08",
+      "time": "11:00pm",
+      "showtimeId": "641816",
+      "showtimeIso": "2026-09-08T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641816&CinemarkMovieId=104867&Showtime=2026-09-08T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641817": {
+      "date": "2026-09-09",
+      "time": "8:00am",
+      "showtimeId": "641817",
+      "showtimeIso": "2026-09-09T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641817&CinemarkMovieId=104867&Showtime=2026-09-09T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641818": {
+      "date": "2026-09-09",
+      "time": "11:45am",
+      "showtimeId": "641818",
+      "showtimeIso": "2026-09-09T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641818&CinemarkMovieId=104867&Showtime=2026-09-09T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641819": {
+      "date": "2026-09-09",
+      "time": "3:30pm",
+      "showtimeId": "641819",
+      "showtimeIso": "2026-09-09T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641819&CinemarkMovieId=104867&Showtime=2026-09-09T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641820": {
+      "date": "2026-09-09",
+      "time": "7:15pm",
+      "showtimeId": "641820",
+      "showtimeIso": "2026-09-09T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641820&CinemarkMovieId=104867&Showtime=2026-09-09T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641821": {
+      "date": "2026-09-09",
+      "time": "11:00pm",
+      "showtimeId": "641821",
+      "showtimeIso": "2026-09-09T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641821&CinemarkMovieId=104867&Showtime=2026-09-09T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641822": {
+      "date": "2026-09-10",
+      "time": "8:00am",
+      "showtimeId": "641822",
+      "showtimeIso": "2026-09-10T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641822&CinemarkMovieId=104867&Showtime=2026-09-10T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641823": {
+      "date": "2026-09-10",
+      "time": "11:45am",
+      "showtimeId": "641823",
+      "showtimeIso": "2026-09-10T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641823&CinemarkMovieId=104867&Showtime=2026-09-10T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641824": {
+      "date": "2026-09-10",
+      "time": "3:30pm",
+      "showtimeId": "641824",
+      "showtimeIso": "2026-09-10T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641824&CinemarkMovieId=104867&Showtime=2026-09-10T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641825": {
+      "date": "2026-09-10",
+      "time": "7:15pm",
+      "showtimeId": "641825",
+      "showtimeIso": "2026-09-10T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641825&CinemarkMovieId=104867&Showtime=2026-09-10T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641826": {
+      "date": "2026-09-10",
+      "time": "11:00pm",
+      "showtimeId": "641826",
+      "showtimeIso": "2026-09-10T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641826&CinemarkMovieId=104867&Showtime=2026-09-10T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641827": {
+      "date": "2026-09-14",
+      "time": "8:00am",
+      "showtimeId": "641827",
+      "showtimeIso": "2026-09-14T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641827&CinemarkMovieId=104867&Showtime=2026-09-14T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641828": {
+      "date": "2026-09-14",
+      "time": "11:45am",
+      "showtimeId": "641828",
+      "showtimeIso": "2026-09-14T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641828&CinemarkMovieId=104867&Showtime=2026-09-14T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641829": {
+      "date": "2026-09-14",
+      "time": "3:30pm",
+      "showtimeId": "641829",
+      "showtimeIso": "2026-09-14T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641829&CinemarkMovieId=104867&Showtime=2026-09-14T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641830": {
+      "date": "2026-09-14",
+      "time": "7:15pm",
+      "showtimeId": "641830",
+      "showtimeIso": "2026-09-14T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641830&CinemarkMovieId=104867&Showtime=2026-09-14T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641831": {
+      "date": "2026-09-14",
+      "time": "11:00pm",
+      "showtimeId": "641831",
+      "showtimeIso": "2026-09-14T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641831&CinemarkMovieId=104867&Showtime=2026-09-14T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641832": {
+      "date": "2026-09-15",
+      "time": "8:00am",
+      "showtimeId": "641832",
+      "showtimeIso": "2026-09-15T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641832&CinemarkMovieId=104867&Showtime=2026-09-15T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641833": {
+      "date": "2026-09-15",
+      "time": "11:45am",
+      "showtimeId": "641833",
+      "showtimeIso": "2026-09-15T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641833&CinemarkMovieId=104867&Showtime=2026-09-15T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641834": {
+      "date": "2026-09-15",
+      "time": "3:30pm",
+      "showtimeId": "641834",
+      "showtimeIso": "2026-09-15T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641834&CinemarkMovieId=104867&Showtime=2026-09-15T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641835": {
+      "date": "2026-09-15",
+      "time": "7:15pm",
+      "showtimeId": "641835",
+      "showtimeIso": "2026-09-15T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641835&CinemarkMovieId=104867&Showtime=2026-09-15T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641836": {
+      "date": "2026-09-15",
+      "time": "11:00pm",
+      "showtimeId": "641836",
+      "showtimeIso": "2026-09-15T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641836&CinemarkMovieId=104867&Showtime=2026-09-15T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641837": {
+      "date": "2026-09-16",
+      "time": "8:00am",
+      "showtimeId": "641837",
+      "showtimeIso": "2026-09-16T08:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641837&CinemarkMovieId=104867&Showtime=2026-09-16T08:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641838": {
+      "date": "2026-09-16",
+      "time": "11:45am",
+      "showtimeId": "641838",
+      "showtimeIso": "2026-09-16T11:45:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641838&CinemarkMovieId=104867&Showtime=2026-09-16T11:45:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641839": {
+      "date": "2026-09-16",
+      "time": "3:30pm",
+      "showtimeId": "641839",
+      "showtimeIso": "2026-09-16T15:30:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641839&CinemarkMovieId=104867&Showtime=2026-09-16T15:30:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641840": {
+      "date": "2026-09-16",
+      "time": "7:15pm",
+      "showtimeId": "641840",
+      "showtimeIso": "2026-09-16T19:15:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641840&CinemarkMovieId=104867&Showtime=2026-09-16T19:15:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
+    },
+    "641841": {
+      "date": "2026-09-16",
+      "time": "11:00pm",
+      "showtimeId": "641841",
+      "showtimeIso": "2026-09-16T23:00:00",
+      "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641841&CinemarkMovieId=104867&Showtime=2026-09-16T23:00:00",
+      "status": "bookable",
+      "firstSeen": "2026-07-30T13:14:09.216Z",
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641842": {
       "date": "2026-08-17",
@@ -1647,7 +3017,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641842&CinemarkMovieId=104867&Showtime=2026-08-18T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-29T00:12:33.797Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641843": {
       "date": "2026-08-18",
@@ -1657,7 +3027,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641843&CinemarkMovieId=104867&Showtime=2026-08-19T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-29T00:12:33.797Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641844": {
       "date": "2026-08-19",
@@ -1667,7 +3037,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641844&CinemarkMovieId=104867&Showtime=2026-08-20T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-29T00:12:33.797Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     },
     "641845": {
       "date": "2026-08-20",
@@ -1677,7 +3047,7 @@
       "ticketUrl": "https://www.cinemark.com/TicketSeatMap/?TheaterId=207&ShowtimeId=641845&CinemarkMovieId=104867&Showtime=2026-08-21T02:30:00",
       "status": "bookable",
       "firstSeen": "2026-07-29T00:12:33.797Z",
-      "lastSeen": "2026-07-30T11:35:24.371Z"
+      "lastSeen": "2026-07-30T13:14:09.216Z"
     }
   },
   "latestDate": "2026-09-25",
@@ -1918,6 +3288,6 @@
       "updatedAt": "2026-07-22T15:16:08.380Z"
     }
   },
-  "lastErrorAlertAt": "2026-07-30T07:07:25.675Z",
-  "seatCursor": 2
+  "lastErrorAlertAt": "2026-07-30T13:14:09.216Z",
+  "seatCursor": 3
 }
